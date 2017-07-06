@@ -88,13 +88,30 @@ namespace LoopsPracticeSummer17
                 product = product * numbers[i];
                 Console.WriteLine(product);
             }
-            int product = 1;
+            //Another example of problem 3
+            int productt = 1;
             for (int i = 1; i <=10; i++)
             {
                 product = product * 1;
                 Console.WriteLine();
                 Console.WriteLine(product);
+            }
 
+            //Another Example
+            string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
+            //Foreach always begins with keyowrd foreach
+            foreach(string month in firstMonths)
+            {
+                Console.WriteLine(month);
+            }
+            //foreach loops allow the temporary cariable to "know" to assign
+            //itself to each element in the collection (like an array), one at a time
+            //Create an array of 6 musicians (bans or solo artists)
+            //Using a foreach loop, print each musician's name'
+            string[] musicians = { "The Clash", "Tiger Army", "Justin Bieber", "The Scissor Sisters", "Bach" };
+            foreach(string musician in musicians)
+            {
+                Console.WriteLine(musician);
             }
         }
     }
