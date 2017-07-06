@@ -165,11 +165,50 @@ namespace LoopsPracticeSummer17
             char classGrade = char.Parse(Console.ReadLine());
             Console.WriteLine("Do you have another class tou would like to add to your GPA calculation?");
             string className = Console.ReadLine();
-            do()
+          //  do()
+           // {
+
+//}
+//while () ;
+
+            //NESTED LOOPS - loop inside of another loop
+            //The inner loop is executed more times than the outer loop
+            //Create a nested loop structure that prints:
+            //1234
+            //1234
+            for (int rows = 1; rows <= 2; rows++)
             {
+                for (int columns = 1; columns <= 4; columns++)
+                {
+                    Console.Write(columns);
+                }
+                Console.WriteLine();
+            }
+            //The above problem prints 
+            //1234
+            //1234
+            //PYRAMID PROBLEM NEXT
+            //Print a triangle
+            //Outer loop will go line by line
+            //The inner loop will go over different elements in the line.
+            //Result
+            //1
+            //12
+            //123
+            //1234
+            for (int rows = 1; rows <= 10; rows++)
+            {
+                for (int columns = 1; columns <= 10; columns++)
+                {
+                    Console.Write(columns);
+                    Console.Write(rows);
+
+                    break;
+                }
+                Console.WriteLine();
+                break;
 
             }
-            while () ;
         } 
     }
 }
