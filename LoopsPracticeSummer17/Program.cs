@@ -207,7 +207,14 @@ namespace LoopsPracticeSummer17
                 }
                 Console.WriteLine();
                 break;
-
+                Console.WriteLine("how many rows you  want in ur triangle");
+                int n = int.Parse(Console.ReadLine());
+                for (int row = 1; row<=n; row++)
+                {
+                    Console.WriteLine(col + " ");
+                }
+                Console.WriteLine();
+                //look at your github for hw
             }
         } 
     }
